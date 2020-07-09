@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Table</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/table.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <header>
+	<ul>
+		<li><a href="./dashboard.html">Dashboard</a></li>
+		<li><a href="./Assign Worker.html">Worker Info</a></li>
+		<li><a href="#">Orders</a>
+			<ul>
+				<li><a href="./Pending Order.html">Pending Orders</a></li>
+				<li><a href="./Current Order.html">In Progress Orders</a></li>
+				<li><a href="./Completed Order.html">Completed Orders</a></li>
+			</ul>
+		</li>
+		<li><a href="./worker.html">Add Worker</a></li>
+		<li><a href="./edit Profile.html">Edit Profile</a></li>
+	</ul>
+</header>
+</head>
+  <h1 style="text-align: center;">In Progress Order List</h1>
+   <table class="table">
+     <thead>
+		<th>Order ID</th>
+		<th>Name</th>
+		<th>Date</th>
+		<th>Delievery Address</th>
+		
+		<th>Cost(In INR)</th>
+		<th>Action</th>
+     </thead>
+     <tbody>
+		<tr>
+			<td data-label="S.No">11</td>
+			<td data-label="Name">Rupal Patel</td>
+			<td data-label="Date">10th July,2020</td>
+			<td data-label="Address">Apex Bunglow,Ram Chowk,Sabarmati</td>
+			<td data-label="Staus">820</td>
+			<td><button class="button">
+				Update Status
+			</button></td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">12</td>
+			<td data-label="Name">Deep Mehta</td>
+			<td data-label="Date">9th July,2020</td>
+			<td data-label="Address">Shree Balaji Agora Society,Near tapovan Circle,Gandhinagar</td>
+			<td data-label="Staus">1520</td>
+			<td><button class="button">
+				Update Status
+			</button></td>
+		</tr>
+
+     	  
+     </tbody>
+   </table>
+
+</body>
+</html>

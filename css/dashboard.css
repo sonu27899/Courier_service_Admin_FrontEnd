@@ -1,0 +1,27 @@
+.box
+{
+  margin-left: 50px;
+  width:250px;
+	height:150px;
+	position: absolute;
+	background: #fff;
+  box-shadow: 0 10px 100px rgba(0,0,0,0.2);
+}
+.box-1
+{
+  margin-left: 550px;
+  width:250px;
+	height:150px;
+	position: absolute;
+	background: #fff;
+  box-shadow: 0 10px 100px rgba(0,0,0,0.2);
+}
+.box-2
+{
+  margin-left: 1050px;
+  width:250px;
+	height:150px;
+	position: absolute;
+	background: #fff;
+  box-shadow: 0 10px 100px rgba(0,0,0,0.2);
+}

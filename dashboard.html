@@ -1,0 +1,240 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/navbar.css" type="text/css">
+	<link rel="stylesheet" href="css/table.css" type="text/css">
+	<link rel="stylesheet" href="css/chart.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<body>
+	<header>
+		<ul>
+			<li><a href="./dashboard.html">Dashboard</a></li>
+			<li><a href="./Assign Worker.html">Worker Info</a></li>
+			<li><a href="#">Orders</a>
+				<ul>
+					<li><a href="./Pending Order.html">Pending Orders</a></li>
+					<li><a href="./Current Order.html">In Progress Orders</a></li>
+					<li><a href="./Completed Order.html">Completed Orders</a></li>
+				</ul>
+			</li>
+			<li><a href="./worker.html">Add Worker</a></li>
+			<li><a href="./edit Profile.html">Edit Profile</a></li>
+		</ul>
+	</header>
+</body>
+</head>
+<br><br><br>
+<h1 style="text-align: center;">All Order List</h1>
+<table class="table">
+	<thead>
+		<th>Order ID</th>
+		<th>Name</th>
+		<th>Date</th>
+		<th>Delievery Address</th>
+
+		<th>Cost(In INR)</th>
+		<th>Status</th>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-label="S.No">1</td>
+			<td data-label="Name">Dinesh Chauhan</td>
+			<td data-label="Date">25th July,2020</td>
+			<td data-label="Address">204,Shreemad Apt.,Thaltej,Ahmedabad</td>
+			<td data-label="Staus">520</td>
+			<td>Pending</td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">2</td>
+			<td data-label="Name">Kamal Jain</td>
+			<td data-label="Date">3rd February,2019</td>
+			<td data-label="Address">312/2,Siddharth Complex,Sector 8B,Gandhinagar</td>
+			<td data-label="Staus">840</td>
+			<td>Pending</td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">3</td>
+			<td data-label="Name">Neha Dhotre</td>
+			<td data-label="Date">2nd March,2020</td>
+			<td data-label="Address">202,Ratnakalash Flat,Paldi,Ahmedabad</td>
+			<td data-label="Staus">380</td>
+			<td>Pending</td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">4</td>
+			<td data-label="Name">Priya Shah</td>
+			<td data-label="Date">4th August,2019</td>
+			<td data-label="Address">A-328,Parasnagar,Naranpura,Ahmedabad</td>
+			<td data-label="Staus">880</td>
+			<td>Pending</td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">11</td>
+			<td data-label="Name">Rupal Patel</td>
+			<td data-label="Date">10th July,2020</td>
+			<td data-label="Address">Apex Bunglow,Ram Chowk,Sabarmati</td>
+			<td data-label="Staus">820</td>
+			<td>In Progress</td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">12</td>
+			<td data-label="Name">Deep Mehta</td>
+			<td data-label="Date">9th July,2020</td>
+			<td data-label="Address">Shree Balaji Agora Society,Near tapovan Circle,Gandhinagar</td>
+			<td data-label="Staus">1520</td>
+			<td>In Progress</td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">111</td>
+			<td data-label="Name">Jay Jain</td>
+			<td data-label="Date">1st June,2020</td>
+			<td data-label="Address">305,Subhadra Flat,Chandranagar,Ahmedabad</td>
+			<td data-label="Staus">460</td>
+			<td>Complete</td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">112</td>
+			<td data-label="Name">Komal Chaddha</td>
+			<td data-label="Age">4th April,2019</td>
+			<td data-label="Marks%">B-112,Jashoda Flat,Sarkhej</td>
+			<td data-label="Staus">695</td>
+			<td>Complete</td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">113</td>
+			<td data-label="Name">Raju Japan</td>
+			<td data-label="Age">28th February,2020</td>
+			<td data-label="Marks%">D/5,Sam Flat,Navrangpura,Ahmedabad</td>
+			<td data-label="Staus">784</td>
+			<td>Complete</td>
+		</tr>
+
+		<tr>
+			<td data-label="S.No">114</td>
+			<td data-label="Name">Mohan Pandey</td>
+			<td data-label="Age">2nd January,2020</td>
+			<td data-label="Marks%">F-113,Chand Flat,Gota Circle,SG Highway</td>
+			<td data-label="Staus">475</td>
+			<td>Complete</td>
+		</tr>
+	</tbody>
+</table>
+<section id="s-team" class="section">
+
+	<br><br><br>
+
+	<div class="b-skills">
+		<div class="container">
+			<h2>Our Orders(In Percentage)</h2>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="skill-item center-block">
+						<div class="chart-container">
+							<div class="chart " data-percent="40" data-bar-color="#23afe3">
+								<span class="percent" data-after="%">40</span>
+							</div>
+						</div>
+
+						<p>Pending Orders</p>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="skill-item center-block">
+						<div class="chart-container">
+							<div class="chart " data-percent="20" data-bar-color="#a7d212">
+								<span class="percent" data-after="%">20</span>
+							</div>
+						</div>
+
+						<p>In Progress Orders</p>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="skill-item center-block">
+						<div class="chart-container">
+							<div class="chart " data-percent="40" data-bar-color="#ff4241">
+								<span class="percent" data-after="%">40</span>
+							</div>
+						</div>
+
+						<p>Completed Orders</p>
+					</div>
+				</div>
+
+				<!-- <div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="skill-item center-block">
+						<div class="chart-container">
+							<div class="chart " data-percent="65" data-bar-color="#edc214">
+								<span class="percent" data-after="%">65</span>
+							</div>
+						</div>
+
+						<p>PHOTOSHOP</p>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+</section>
+<script src="plugins/jquery-2.2.4.min.js"></script>
+<script src="plugins/jquery.appear.min.js"></script>
+<script src="plugins/jquery.easypiechart.min.js"></script>
+<script>
+	'use strict';
+
+	var $window = $(window);
+
+	function run() {
+		var fName = arguments[0],
+			aArgs = Array.prototype.slice.call(arguments, 1);
+		try {
+			fName.apply(window, aArgs);
+		} catch (err) {
+
+		}
+	};
+
+	/* chart
+	================================================== */
+	function _chart() {
+		$('.b-skills').appear(function () {
+			setTimeout(function () {
+				$('.chart').easyPieChart({
+					easing: 'easeOutElastic',
+					delay: 3000,
+					barColor: '#369670',
+					trackColor: '#fff',
+					scaleColor: false,
+					lineWidth: 21,
+					trackWidth: 21,
+					size: 250,
+					lineCap: 'round',
+					onStep: function (from, to, percent) {
+						this.el.children[0].innerHTML = Math.round(percent);
+					}
+				});
+			}, 150);
+		});
+	};
+	$(document).ready(function () {
+		run(_chart);
+	});
+</script>
+
+
+</html>
